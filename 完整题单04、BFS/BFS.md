@@ -44,7 +44,7 @@
 
 题目代码：
 
-```
+```cpp
 #include <queue>
 #include <vector>
 #include <climits>
@@ -107,7 +107,7 @@ public:
 };
 ```
 
-```
+```cpp
 #include <queue>
 #include <vector>
 using namespace std;
@@ -170,7 +170,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -221,7 +221,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 queue<int> que;
@@ -273,7 +273,7 @@ int main(){
 
 题目代码：
 
-```
+```cpp
 #include<iostream>
 #include<algorithm>
 #include<cmath>
@@ -363,7 +363,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -444,7 +444,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 //    v[x].push_back(i);
 
 #include <bits/stdc++.h>
@@ -530,7 +530,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //从1开始且最后是输出编号
 //
 #include<bits/stdc++.h>
@@ -608,7 +608,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -678,7 +678,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -798,7 +798,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 // 答案：148
 #include <bits/stdc++.h>
 using namespace std;
@@ -862,7 +862,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int n,k;
@@ -949,7 +949,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 #include <queue>
 #define INF 0x3f3f3f3f
@@ -1036,7 +1036,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int shortestDistance(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
@@ -1100,7 +1100,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 #include <queue>
 #include <unordered_set>
@@ -1160,7 +1160,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 #define int long long
 using namespace std;
@@ -1228,7 +1228,7 @@ signed main(){
 
 题目代码：
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 char g[110][110];

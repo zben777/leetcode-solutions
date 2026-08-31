@@ -70,7 +70,7 @@
 
 题目代码：
 
-```
+```cpp
 class Solution {
 private:
     void dfs(const vector<vector<int>>& rooms, int index, vector<bool>& vis_room) {
@@ -106,7 +106,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 #include<vector>
 using namespace std;
@@ -152,7 +152,7 @@ int main(){
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -206,7 +206,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include "bits/stdc++.h"
 
 using namespace std;
@@ -261,7 +261,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int a[2000000];
@@ -308,7 +308,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -360,7 +360,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int N;
@@ -436,7 +436,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int m,n;
@@ -491,7 +491,7 @@ int main(){
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -543,7 +543,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 char a[35][65];//千万注意，这题是字符型，我一开始用整形，全是0
@@ -625,7 +625,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -675,7 +675,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -735,7 +735,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 char a[100][100];
@@ -826,7 +826,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long LL; 
@@ -895,7 +895,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 //typedef long long LL;
@@ -961,7 +961,7 @@ int main(){
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int dirs[4][2] = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
@@ -1060,7 +1060,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int dirs[4][2] = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -1170,7 +1170,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int dirs[4][2] = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -1278,7 +1278,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -1317,7 +1317,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 class Solution {
 public:
     int dirs[4][2] = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -1428,7 +1428,7 @@ public:
 
 题目代码：
 
-```
+```cpp
 //这道题注意更新 sum=cur
 //这次因为输出的字符串少了最后那个句号标点
 #include<bits/stdc++.h>
@@ -1502,7 +1502,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //        if(vis[v[index][i]]==0){
 
 
@@ -1582,7 +1582,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 vector<int> g[N];
 int deg[N];
 
@@ -1645,7 +1645,7 @@ int main(){
 
 题目代码：
 
-```
+```cpp
 //共同祖先如果在五代以内（即本人、父母、祖父母、曾祖父母、高祖父母）则不可通婚
 // 即dfs(x,1)  到4的时候就行了   if(dai>4){
 
@@ -1724,7 +1724,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 // 但五代以内（不包括第五代）有公共祖先
 //第一点：五代以内，不包括第五代：表示 cong i=1 to i<5 ;
 //所以分两种情况：在男方的五代以内出现了女方的祖先，or 在女方的五代以内出现了男方的祖先。
@@ -1804,7 +1804,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //                if(color[i]==color[v[i][j] ] || sc.size()!=d){
 
 //对于N要进行适应性的更改，对于字段错误
@@ -1864,7 +1864,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 #define N 1001
@@ -1926,7 +1926,7 @@ int main()
 
 题目代码：
 
-```
+```cpp
 //有向图
 //只保留其整数部分
  //   cout<<(int)sum<<endl;
@@ -1988,7 +1988,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //对于N要进行适应性的更改，对于字段错误
 //     if(v[i].size()>0)sort(v[i].begin(),v[i].end());
 #include<bits/stdc++.h>
@@ -2058,7 +2058,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 // 下面是 一分 都没有的代码；哎
 
 #include<bits/stdc++.h>
@@ -2128,7 +2128,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //对于N要进行适应性的更改，对于字段错误
 #include<bits/stdc++.h>
 using namespace std;
@@ -2198,7 +2198,7 @@ int main() {
 
 题目代码：
 
-```
+```text
 代码代码啊
 ```
 
@@ -2214,7 +2214,7 @@ int main() {
 
 题目代码：
 
-```
+```cpp
 //普通版本 得不了满分；没找到问题在哪？这个要注意开LL；
 #include <bits/stdc++.h>
 using namespace std;
